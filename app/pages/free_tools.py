@@ -8,7 +8,6 @@ def free_tools():
         with open(file_name) as f:
             st.markdown(f"<style>{f.read()}</style>", unsafe_allow_html=True)
 
-    st.set_page_config(page_title="My Webpage", page_icon=":tada:", layout="wide")
     local_css("style/style.css")
     options_list = ["Home", "About", "Free Tools!", "Contact"]
     option_menu(
@@ -35,4 +34,5 @@ def free_tools():
 
 
 if __name__ == "__main__":
+    st.set_page_config(page_title="My Webpage", page_icon=":tada:", layout="wide")
     free_tools()
