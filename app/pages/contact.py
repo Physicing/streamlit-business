@@ -82,5 +82,5 @@ def contact():
 
 
 if __name__ == "__main__":
-    st.set_page_config(page_title="My Webpage", page_icon=":tada:", layout="wide")
+    st.set_page_config(page_title="Data Science For Marketing - Contact", page_icon=":bar_chart:", layout="wide")
     contact()

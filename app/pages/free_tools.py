@@ -34,5 +34,5 @@ def free_tools():
 
 
 if __name__ == "__main__":
-    st.set_page_config(page_title="My Webpage", page_icon=":tada:", layout="wide")
+    st.set_page_config(page_title="Data Science For Marketing - Free Tools!", page_icon=":bar_chart:", layout="wide")
     free_tools()

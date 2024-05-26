@@ -94,7 +94,7 @@ def about_me():
         with left_column:
             st.markdown("""
                     #
-                    - #### **:blue[Recommendation Engines]:** Want to recommend users a new content based on their\
+                    - #### **:blue[Recommendation Engines:]** Want to recommend users a new content based on their\
                     previous choices? I've been there. We can create state-of-the art recommendation algorithms to\
                     automatically recommend new items together with the power of machine learning and statistics!
                     #
@@ -174,5 +174,5 @@ def about_me():
 
 
 if __name__ == "__main__":
-    st.set_page_config(page_title="My Webpage", page_icon=":tada:", layout="wide")
+    st.set_page_config(page_title="Data Science For Marketing - About", page_icon=":bar_chart:", layout="wide")
     about_me()
