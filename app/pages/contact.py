@@ -47,7 +47,7 @@ def contact():
         with mid_col:
             with st.expander("Message Directly"):
                 contact_form = """
-                <form action="https://formsubmit.co/deveciatalay@gmail.com" method="POST">
+                <form action="https://formsubmit.co/hi@datasciencefor.marketing" method="POST">
                 <input type="hidden" name="_captcha" value="false">
                 <input type="text" name="name" placeholder="Your Name" required>
                 <input type="email" name="email" placeholder="Your E-Mail" required>
@@ -72,7 +72,7 @@ def contact():
             with right_col:
                 st.markdown(
                     """<div style="text-align: center">
-                    <a href="mailto:deveciatalay@gmail.com">
+                    <a href="mailto:hi@datasciencefor.marketing">
                     <img src="data:image/png;base64,{}" width="20%">
                     </a></div>""".format(
                         base64.b64encode(open("./images/mail.png", "rb").read()).decode()
