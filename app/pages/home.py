@@ -7,13 +7,13 @@ import shutil
 GA_ID = "google_analytics"
 GA_SCRIPT = """
 <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-FC8YS9BH40"></script>
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-FKN6NCMEXB"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
 
-  gtag('config', 'G-FC8YS9BH40');
+  gtag('config', 'G-FKN6NCMEXB');
 </script>
 """
 
